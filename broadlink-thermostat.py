@@ -5,7 +5,7 @@ import multiprocessing, argparse, time, datetime, sys, os, signal, traceback, so
 import paho.mqtt.client as mqtt  # pip install paho-mqtt
 import broadlink  # pip install broadlink
 import json  # pip install json
-import pytz # pip install pytz
+import pytz  # pip install pytz
 HAVE_TLS = True
 try:
     import ssl
